@@ -3,8 +3,10 @@ const titles = [
   'QA Automation Engineer',
   'SDET',
   'Playwright Specialist',
+  'API Automation Expert',
   'Performance Tester',
-  'Framework Architect'
+  'ISTQB Certified Tester',
+  'AI-Assisted Testing Advocate'
 ];
 
 let titleIndex = 0;
@@ -75,7 +77,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 document.querySelectorAll(
-  '.skill-category, .project-card, .highlight-item, .contact-card, .about-text'
+  '.skill-category, .project-card, .highlight-item, .contact-card, .about-text, .timeline-item, .cert-card'
 ).forEach(el => {
   el.classList.add('fade-in');
   observer.observe(el);
